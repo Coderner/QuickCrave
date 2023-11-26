@@ -1,12 +1,12 @@
 import './App.css';
-import Doctors from './components/Doctors';
-import Specialities from './components/Specialities';
+import Footer from './components/Footer';
+import Header from './components/Header';
 
 function App() {
   return (
-    <div className="App p-12 antialiased">
-        <Specialities/>
-        <Doctors/>
+    <div className="antialiased min-h-screen">
+       <Header/>
+       <Footer/>
     </div>
   );
 }

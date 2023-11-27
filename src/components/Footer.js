@@ -1,6 +1,7 @@
 import React from 'react'
 import LogoImg from "../assets/img/QuickLogo.jpg"
 
+
 const Footer = () => {
   return (
     <div className='absolute bottom-0 h-12 w-full border-t border-black/20 flex justify-center items-center'>

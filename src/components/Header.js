@@ -7,7 +7,7 @@ const Header = () => {
   const [loggedState, setLoggedState]=useState("Login");
 
   return (
-    <div className='flex justify-between px-8 py-4 shadow-md'>
+    <div className='flex justify-between px-8 py-4 shadow-md bg-white sticky top-0'>
         <Logo/>
         <ul className='flex gap-4 text-lg font-semibold mt-6'>
             <li className='navlist'><FaHouseUser className='mt-1'/>Home</li>
